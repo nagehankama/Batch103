@@ -1,7 +1,6 @@
 package day01variables;
 
 public class Variables01 {
-
     //Variable nasil olusturulur?
     //1) access modifier 2) data type 3) variable ismi 4) = 5) deger 6) ;
 
