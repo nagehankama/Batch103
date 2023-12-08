@@ -44,7 +44,14 @@ string non=primitive dir. yani bir string olusturdugunuzda Java bir suru method 
 
 
 primitive ve non pirimitive arasindaki fark nedir?
-
+1- non-primitive data type larda degerin yaninda methodlar vardir.
+pirimitove data type larinda ise sadece deger vardir.
+2- primitive data type lari java tarafindan olusturulmustur. toplam 8 adettir. biz olusturamayiz.
+non pririmitive data type lari java tarafindan da olusturulmustur. bizde olusturabilirsiniz.
+non primitive data type lar sayilamayacak kadar coktur. her devoloper non pririmitive data tpe olusturabilir.
+3- primitive data type lari kucuk harf ile baslar. non pirimitive data type lar ise buyuk harf ile baslar.
+4- primitive data type lar memory de farkli buyuklukte yerler kullanir.
+ non primitive data type lar memory de hepsi ayni buyuklukte yer kullanirlar.
  */
 
 public byte price = 12;
