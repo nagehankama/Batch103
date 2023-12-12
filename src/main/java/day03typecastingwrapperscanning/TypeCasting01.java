@@ -12,12 +12,21 @@ public class TypeCasting01 {
         long population = 1234;
         int newPopulation = (int)population;
         // example:1 shortu double ceviren kodu yaziniz.
-        //           floati byte yapan kodu yaziniz.
-
-        short populationOfVillage = 30000;
+        short populationOfVillage = 300;
         double newPopulationOfVillage = populationOfVillage;
-        float price = 13.999F;
-        short newPrice = (short)price;
+
+        //  example: 2 floati byte yapan kodu yaziniz.
+        float price = 13.999F; //"auto widening"
+        byte newPrice = (byte)price; //"explicit narrowing"
+        System.out.println(newPrice);  // 13 ==> java ondalik sayiyi tam sayiya cevirirken yuvarlama yapmaz.
+                                       // ondalik kismi siler
+        int number= 515;
+        byte newNumber= (byte)number;
+        System.out.println(newNumber);//3 ==> java 515 i 256(byte taki sayilarin sayisi) ya boldu kalani return etti
+
+        int num =510;
+        byte newNum = (byte)num;
+        System.out.println(newNum); //-2
 
 
     }
