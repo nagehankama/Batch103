@@ -1,6 +1,6 @@
 package day04ifstatement;
 
-public class ifstatemen01 {
+public class ifstatement01 {
     public static void main(String[] args) {
         //if statement belli kodlari belli sartlara bagli olarak calistirmaya yarar.
       // example : sayi pozitif ise ekrana pozitif yazdirin
